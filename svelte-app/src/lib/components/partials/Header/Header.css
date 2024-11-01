@@ -1,0 +1,40 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    & nav {
+        display: flex;
+        justify-content: space-between;
+      
+        align-items: center;    
+        & p{
+            font-size: 1.2rem;
+            font-weight: bold;
+            background-color: black;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+        & ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 1rem;  
+            & li {
+                padding-bottom: 2px;
+                & a {
+                    color: white;
+                    display:inline-block;
+                    transition: 0.3s ease;
+                   &:hover {
+                        color: #c2c2c2;
+                        border-bottom: 2px solid #c2c2c2;
+                        transition: 0.3s ease;   
+                    }
+                }
+            }
+        
+        }
+    }
+}
