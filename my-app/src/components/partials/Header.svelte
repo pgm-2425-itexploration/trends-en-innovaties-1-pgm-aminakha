@@ -18,8 +18,8 @@
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/installatie">Installatie</a></li>
+           
         </ul>
         <div class="darkswitch-container">
             <button on:click={toggleDarkMode} class="darkswitch">

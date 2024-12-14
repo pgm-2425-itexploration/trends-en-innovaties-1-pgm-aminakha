@@ -23,13 +23,27 @@
 	.dark {
 		background-color: black;
 		color: white;	
+		& p {
+			color: white;
+			& a {
+				color: white;
+			}
+		}
+		& .tutorial-list.s-TunP-CFuO9Vb {
+    & ul:where(.s-TunP-CFuO9Vb) {
+        & li:where(.s-TunP-CFuO9Vb) {
+			& a {
+				color: white;
+			}
+		}}
+	}
 	}
 
 	body {
 		font-family: monospace;
 		background-repeat: no-repeat;
 background-attachment: fixed;
-
+scroll-behavior: smooth;
 	}
 	ul {
 		list-style-type: none;
